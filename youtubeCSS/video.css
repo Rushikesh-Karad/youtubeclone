@@ -1,0 +1,75 @@
+  .thumbnail{
+   width:100%;
+          
+  }
+  .thumbnail-row{
+   margin-bottom: 12px;
+   position: relative;
+
+  }
+  .title{
+   
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .author{
+    font-size: 12px;
+    color: rgb(96,96,96);
+    margin-top: 15px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+  }
+  .stats{
+    font-size: 12px;
+    color: rgb(96,96,96);
+    margin-left: 10px;
+  }
+  .vgrid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
+  }
+  .profile{
+  vertical-align: top;
+
+  }
+  .pitcher{
+    width: 90%;
+    border-radius: 50px;
+  }
+  .info{
+  width:100%;
+  }
+  .all-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+  @media (max-width:1000px){
+  .all-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  }
+  @media (max-width:800px){
+    .all-grid{
+      grid-template-columns:  1fr 1fr;
+    }
+    }
+  
+.video-time{
+  padding: 5px;
+  font-weight: 500;
+  border-radius: 2px;
+  font-family: Roboto, Arial;
+  position: absolute;
+  background-color: black ;
+  color: white;
+  bottom: 10px;
+  right: 5px
+  
+}
+
