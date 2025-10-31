@@ -1,0 +1,2 @@
+# youtubeclone
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d70cda5e313541709ea85d2254c74a20)](https://app.codacy.com/gh/Rushikesh-Karad/youtubeclone?utm_source=github.com&utm_medium=referral&utm_content=Rushikesh-Karad/youtubeclone&utm_campaign=Badge_Grade)
